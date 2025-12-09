@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nike Ebernon Low – Honey Shop</title>
+  <style>
+    :root {
+      --bg: #1a1a1a;
+      --text: #f5f0e6;
+      --accent: #d4b17a;
+      --card: #2a2a2a;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      text-align: center;
+    }
+    header {
+      background: var(--card);
+      padding: 16px;
+      border-bottom: 1px solid var(--accent);
+    }
+    header h1 {
+      margin: 0;
+      color: var(--accent);
+    }
+    .product {
+      max-width: 600px;
+      margin: 40px auto;
+      background: var(--card);
+      border: 1px solid var(--accent);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover { background: #c49a5f; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Honey Shop</h1>
+  </header>
+
+  <main>
+    <div class="product">
+      <h2>Nike Ebernon Low Originales</h2>
+      <!-- Imagen principal -->
+      <img src="imagenes/nike n2.png" alt="Nike Ebernon Low Originales">
+      <!-- Si quieres varias imágenes, agrega más abajo -->
+      <img src="imagenes/nike n2-lateral.png" alt="Nike Ebernon Low vista lateral">
+      <img src="imagenes/nike n2-arriba.png" alt="Nike Ebernon Low vista superior">
+
+      <p class="price">$999 MXN</p>
+      <p>Tenis deportivos casuales, cómodos y resistentes para uso diario.</p>
+      <a class="btn" 
+         href="https://wa.me/526635214373?text=Hola%20quiero%20comprar%20los%20Nike%20Ebernon%20Low%20Originales%20por%20$999%0AImagen:%20https://tuusuario.github.io/turepositorio/imagenes/nike%20n2.png" 
+         target="_blank">Comprar vía WhatsApp</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Honey Shop – Urban Clothing</p>
+  </footer>
+</body>
+</html>
+
